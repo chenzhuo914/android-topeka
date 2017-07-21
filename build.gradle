@@ -19,7 +19,7 @@
 buildscript {
 
     project.ext.compileSdkVersion = 26
-    project.ext.buildToolsVersion = "26.0.0-rc2"
+    project.ext.buildToolsVersion = "26.0.0"
     project.ext.supportLibVersion = "26.0.0-beta2"
     
     repositories {
