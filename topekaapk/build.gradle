@@ -4,10 +4,6 @@ android {
     compileSdkVersion project.compileSdkVersion
     buildToolsVersion project.buildToolsVersion
 
-    dataBinding {
-        enabled true
-    }
-
     defaultConfig {
         applicationId "com.google.samples.apps.topeka"
         minSdkVersion 19

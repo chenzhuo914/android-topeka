@@ -4,8 +4,10 @@ android {
     compileSdkVersion project.compileSdkVersion
     buildToolsVersion project.buildToolsVersion
 
+    baseFeature = true
+
     dataBinding {
-        enabled true
+        enabled = true
     }
 
     defaultConfig {

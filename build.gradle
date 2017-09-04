@@ -19,8 +19,8 @@
 buildscript {
 
     project.ext.compileSdkVersion = 26
-    project.ext.buildToolsVersion = "26.0.0-rc2"
-    project.ext.supportLibVersion = "26.0.0-beta2"
+    project.ext.buildToolsVersion = "26.0.1"
+    project.ext.supportLibVersion = "26.0.2"
     
     repositories {
         jcenter()
@@ -29,7 +29,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-alpha7'
+        classpath 'com.android.tools.build:gradle:3.0.0-beta2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
